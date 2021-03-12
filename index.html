@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Money App</title>
+</head>
+<body>
+    <div class="main"><h1>Money Saving App</h1>
+    </div>
+    <div class="input-section">
+        <div class="wage-section">
+             <h2 class="wage">Wage</h2>
+             <input type="number" name="wage-input" id="wage-input" placeholder="New paycheque">
+             <button class="wage-btn">+</button>
+        </div>
+        <div class="spendings-section">
+            <h2 class="spendings">Spending</h2> 
+          <input type="number" name="spending-input" id="spending-input" placeholder="cash">
+          <select id="spendings-type" >
+              <option value="0" disabled selected>Pick spending type</option>
+              <option value="food">food</option>
+              <option value="clothes">clothes</option>
+              <option value="other">other</option>
+          </select>
+          <button class="spned-btn">+</button>
+        </div>
+    </div>
+    <div class="results-section">
+        <h2 class="results">Results</h2>
+        <ul class="results-types">
+            <li class="income">Income</li>
+            <li class="food">Food </li>
+            <li class="clothes">Clothes</li>
+            <li class="other">Other</li>
+            <li class="the-rest">Rest</li>
+        </ul>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
